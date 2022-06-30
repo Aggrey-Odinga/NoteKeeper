@@ -91,8 +91,8 @@ public final class NoteInfo implements Parcelable {
                 }
 
                 @Override
-                public NoteInfo[] newArray(int i) {
-                    return new NoteInfo[i];
+                public NoteInfo[] newArray(int size) {
+                    return new NoteInfo[size];
                 }
             };
 }
